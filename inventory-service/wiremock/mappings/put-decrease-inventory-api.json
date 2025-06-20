@@ -1,0 +1,20 @@
+{
+    "request": {
+        "method": "PUT",
+        "urlPathTemplate": "/api/inventory/decrease/{productId}",
+        "bodyPatterns": [
+            {
+                "equalToJson": {
+                    "quantity": 1
+                }
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "get-product-info-response.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

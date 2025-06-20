@@ -1,11 +1,11 @@
 {
     "request": {
         "method": "GET",
-        "url": "/some/thing"
+        "urlPathTemplate": "/api/inventory/{productId}"
     },
     "response": {
         "status": 200,
-        "bodyFileName": "my-api-response.json",
+        "bodyFileName": "get-product-info-response.json",
         "headers": {
             "Content-Type": "application/json"
         }
